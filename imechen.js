@@ -1,28 +1,10 @@
-/*
- * 画像をホバー時に変化させるプラグイン
- * $('.imechen').imechen({
- *     type: 'transparent',   //【動作タイプ】「半透明」'transparent', 「画像切替」'toggle'
- *     duration: 200,         //【変化速度】数値を入れる（ms）
- *     opacity: '.6',         //【動作タイプが半透明の場合の透明度】'1'〜'0'の間の数値
- *     suffix: '_on'          //【動作タイプが画像切替の場合のon画像ファイル名の接尾語】
- * });
- * 
- * <img src="xxx.jpg" class="imechen">
- * 
- * or
- * 
- * <a href="#" data-ic-group><img src="xxx.jpg" class="imechen" data-ic-mode="indirect">クリック</a>
- * 
- * ■直接モードと間接モード
- * 直接モードとは指定した画像にホバーした際にその画像をアクションさせるモードです。デフォルト設定です。
- * 間接モードとは指定した画像を内包する要素にホバーした際にその要素をトリガーとして画像をアクションさせるモードです。
- * 間接モードにするには起動させるためのセレクタ要素に「data-ic-mode="indirect"」を書きます。
- * その上でトリガーとしたい要素に「data-ic-group」を書きます。
- * <a href="#" data-ic-group>
- *     <img src="xxx.jpg" class="imechen" data-ic-mode="indirect">
- *     <img src="xxx.jpg" class="imechen" data-ic-mode="indirect">
- *     間接モード
- * </a><br>
+/**
+ * IMECHEN is Image Changer.
+ * Copyright (c) 2016 troussier
+ * GPL licenses
+ * http://www.gnu.org/licenses/gpl.html
+ * @author: troussier (https://github.com/troussier/imechen)
+ * @version: 0.1
  */
 ;(function($){
     'use strict';
