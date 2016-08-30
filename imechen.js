@@ -54,6 +54,7 @@
                     
                     $ic.each(function() {
                         $(this).addClass('ic-off')
+                            .css('display', 'block')
                             .clone()
                             .attr('src', src_on)
                             .insertAfter($(this))
