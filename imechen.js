@@ -64,7 +64,8 @@
                     
                     var wrapStyle = {
                         'display': 'inline-block',
-                        'position': 'relative'
+                        'position': 'relative',
+                        'vertical-align': $ic.css('vertical-align')
                     };
                     var onStyle = {
                         'position': 'absolute',
